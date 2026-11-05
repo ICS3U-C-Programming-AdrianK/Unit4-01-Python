@@ -10,7 +10,7 @@ def main():
     # prevent crashing
     try:
         user_number_int = int(user_number_str)
-        if user_number_int > 0:
+        if user_number_int >= 0:
             total = 0
             count = 0
             while count <= user_number_int:
