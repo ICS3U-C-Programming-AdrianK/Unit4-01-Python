@@ -14,6 +14,7 @@ def main():
             total = 0
             count = 0
             while count <= user_number_int:
+                print("tracking {} times through the loop". format(count))
                 total = total + count
                 count = count + 1
             print(f"The sum of numbers from 0 to {user_number_int} = {total}")
